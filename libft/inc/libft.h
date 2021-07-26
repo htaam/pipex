@@ -6,7 +6,7 @@
 /*   By: tmatias <tmatias@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/26 18:14:45 by tmatias           #+#    #+#             */
-/*   Updated: 2021/07/26 15:59:52 by tmatias          ###   ########.fr       */
+/*   Updated: 2021/07/26 16:39:31 by tmatias          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -92,6 +92,7 @@ void				*ft_memchr(const void *s, int c, size_t n);
 void				*ft_memcpy(void *dst, const void *src, size_t n);
 void				*ft_memmove(void *dst, const void *src, size_t len);
 void				*ft_memset(void *b, int c, size_t len);
+void				ft_exit(char *error);
 
 char				*ft_strchr(const char *s, int c);
 char				*ft_strdup(const char *s1);

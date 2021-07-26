@@ -1,6 +1,10 @@
 #include "pipex.h"
 
-int	main(void)
+int	main(int argc, char **argv)
 {
-	printf("%d\n", ft_strlen("A"));
+	if (argc < 5)
+		ft_exit("To use, run: ./pipex file1 cmd1 cmd2 file2\n");
+	//ft_pipex(argc, argv);
+	if (argv)
+		;
 }

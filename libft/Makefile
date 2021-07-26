@@ -6,7 +6,7 @@
 #    By: tmatias <tmatias@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/02/20 12:26:37 by tmatias           #+#    #+#              #
-#    Updated: 2021/07/26 16:15:22 by tmatias          ###   ########.fr        #
+#    Updated: 2021/07/26 16:41:29 by tmatias          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,6 +26,7 @@ SRC_NAMES = ft_abs.c\
 				ft_lstmap.c\
 				ft_strdup.c\
 				ft_gnl.c\
+				ft_exit.c\
 				ft_lstnew.c\
 				ft_strjoin.c\
 				ft_isalnum.c\
