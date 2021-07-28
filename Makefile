@@ -6,7 +6,7 @@
 #    By: tmatias <tmatias@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/02/15 15:21:21 by anleclab          #+#    #+#              #
-#    Updated: 2021/07/26 16:02:56 by tmatias          ###   ########.fr        #
+#    Updated: 2021/07/28 17:10:00 by tmatias          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,8 @@ NAME = pipex
 
 CFLAGS = -Wall -Wextra -Werror 
 
-SRC = pipex.c
+SRC = pipex.c\
+		main.c
 SRCSFD = srcs/
 OBJSFD = objs/
 OBJS = $(addprefix $(OBJSFD),$(SRC:.c=.o))

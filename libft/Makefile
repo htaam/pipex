@@ -6,7 +6,7 @@
 #    By: tmatias <tmatias@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/02/20 12:26:37 by tmatias           #+#    #+#              #
-#    Updated: 2021/07/26 16:41:29 by tmatias          ###   ########.fr        #
+#    Updated: 2021/07/28 17:19:47 by tmatias          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -39,6 +39,7 @@ SRC_NAMES = ft_abs.c\
 				ft_memchr.c\
 				ft_strlen.c\
 				ft_isdigit.c\
+				ft_freecharmatrix.c\
 				ft_memcmp.c\
 				ft_strmapi.c\
 				ft_isprint.c\
