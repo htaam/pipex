@@ -6,7 +6,7 @@
 /*   By: tmatias <tmatias@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/28 17:10:10 by tmatias           #+#    #+#             */
-/*   Updated: 2021/07/29 17:11:02 by tmatias          ###   ########.fr       */
+/*   Updated: 2021/07/29 17:16:53 by tmatias          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -106,7 +106,8 @@ void	ft_pipex(int argc, char **argv)
 	in = open(argv[1], O_RDONLY);
 	if (in == -1)
 		ft_exit("Failed to open the input file.");
-	out = open(argv[argc - 1], O_RDWR | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH);
+	out = open(argv[argc - 1], O_RDWR | O_CREAT | O_TRUNC, S_IRUSR
+			| S_IWUSR | S_IRGRP | S_IROTH);
 	if (out == -1)
 		ft_exit("Failed to open the output file.");
 	pip = pipe(pipefd);
