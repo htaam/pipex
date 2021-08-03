@@ -71,6 +71,10 @@ OBJ_DIR = obj
 OBJ_NAMES = $(SRC_NAMES:.c=.o)
 OBJ = $(addprefix $(OBJ_DIR)/, $(OBJ_NAMES))
 
+RED = \033[0;31m
+GREEN = \033[0;32m
+NONE = \033[0m
+
 .PHONY: all, clean, fclean, re
 
 all: $(NAME)
